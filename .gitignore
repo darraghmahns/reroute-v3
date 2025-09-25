@@ -1,0 +1,43 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs & coverage
+*.log
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# IDE / editor settings
+.idea/
+.vscode/
+
+# Environment & secrets
+.env
+*.env
+
+# Databases & local storage
+*.db
+*.sqlite3
+
+# Misc
+*.DS_Store
+strava_cookies.txt
