@@ -44,3 +44,5 @@ htmlcov/
 # Misc
 *.DS_Store
 strava_cookies.txt
+
+reroute-openapi.json
