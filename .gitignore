@@ -30,6 +30,9 @@ htmlcov/
 .idea/
 .vscode/
 
+# Git worktrees
+.worktrees/
+
 # Environment & secrets
 .env
 *.env

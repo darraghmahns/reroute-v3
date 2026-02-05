@@ -91,13 +91,13 @@ class PlanAgent:
 
                 self._generation_agent = PydanticAgent(
                     model=model,
-                    result_type=TrainingPlanSchema,
+                    output_type=TrainingPlanSchema,
                     system_prompt=PLAN_GENERATION_SYSTEM_PROMPT,
                     **agent_kwargs,
                 )
                 self._adjust_agent = PydanticAgent(
                     model=model,
-                    result_type=TrainingPlanSchema,
+                    output_type=TrainingPlanSchema,
                     system_prompt=PLAN_ADJUSTMENT_SYSTEM_PROMPT,
                     **agent_kwargs,
                 )
